@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Baloo+2:wght@400..800&family=Zen+Dots&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 2px;
+    width: 80vw;
+    margin: 10px auto;
+    font-family:  "Baloo 2", sans-serif;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px 2px rgb(231, 230, 230);
+    position: sticky;
+    top: 10px;
+    background-color: white;
+    
+}
+.logo{
+width: 25%;
+/* border: 2px solid black; */
+font-weight: bold;
+font-size: 2em;
+color: rgb(8, 8, 50);
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(223, 233, 236);
+border-bottom-left-radius: 30px;
+border-top-left-radius: 30px;
+}
+.minnav{
+    width: 75%;
+    background-color:white;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    /* border: 2px solid green; */
+}
+.minnav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.maincontainer{
+    border: 2px solid red;
+    width: 90vw;
+    margin: 5px auto;
+    min-height: 80vh;
+    display: flex;
+}
+.namesection{
+width: 50%;
+border: 2px solid black;
+}
+.loginpage{
+width: 50%;
+border: 2px solid green;
+}
