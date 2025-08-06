@@ -1,5 +1,6 @@
 import React from 'react'
 import './Mainpage.css'
+import Login from './Login'
 
 const Mainpage = () => {
   return (
@@ -15,8 +16,11 @@ const Mainpage = () => {
             </div>
         </div>
         <div className="maincontainer">
-            <div className="namesection">Welcome to DD Technologies</div>
-            <div className="loginpage"></div>
+            <div className="namesection"><h1>DD Group of Technologies</h1>
+            <p>Inovation begins here......</p></div>
+            <div className="loginpage">
+                  <Login/>
+            </div>
         </div>
     </div>
   )

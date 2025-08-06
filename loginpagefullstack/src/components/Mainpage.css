@@ -46,17 +46,48 @@ border-top-left-radius: 30px;
     font-size: 1.1em;
 }
 .maincontainer{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 90vw;
-    margin: 5px auto;
+    margin: 30px auto;
     min-height: 80vh;
     display: flex;
 }
 .namesection{
 width: 50%;
-border: 2px solid black;
+/* border: 2px solid black; */
+background-color: rgb(237, 237, 248);
+border-bottom-left-radius: 30px;
+border-top-left-radius: 30px;
+}
+.namesection h1{
+    /* border: 2px solid red; */
+    font-family:   "Baloo 2", sans-serif;
+    font-weight: bolder;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(4, 4, 64);
+    font-style: italic;
+    white-space: wrap;
+}
+.namesection p{
+     font-family:   "Baloo 2", sans-serif;  
+     font-style: italic;
+     font-weight: 500;
+        color: rgb(4, 4, 64);
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+
 }
 .loginpage{
 width: 50%;
-border: 2px solid green;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(237, 237, 248);
+border-bottom-right-radius: 30px;
+border-top-right-radius: 30px;
 }
